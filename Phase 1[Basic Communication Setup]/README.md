@@ -24,6 +24,7 @@ Phase 1 focuses on setting up the basic hardware and establishing fundamental co
 5. **Cloud Integration:**  
    - Ensure TCU forwards sensor data from ECU to ESP32.
    - Transmit sensor data from ESP32 to AWS IoT Core.
+   - Setup AWS Dashboard for better visualization of Sensor Data.
 
 6. **RTOS Integration Consideration:**  
    - Evaluate the necessity of RTOS for handling communication and task scheduling efficiently.
