@@ -1,0 +1,3 @@
+Verifying the TLS Connection:
+openssl s_client -connect a3mq2067foq75p-ats.iot.us-east-1.amazonaws.com:8883 -CAfile AmazonRootCA1.pem -cert certificate.pem.crt -key private.pem.key
+
