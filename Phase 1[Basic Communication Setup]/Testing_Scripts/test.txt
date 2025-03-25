@@ -1,0 +1,5 @@
+Verifying the TLS Connection:
+openssl s_client -connect a3mq2067foq75p-ats.iot.us-east-1.amazonaws.com:8883 -CAfile AmazonRootCA1.pem -cert certificate.pem.crt -key private.pem.key
+
+Mosquitto Publish (Sucessful)
+mosquitto_pub -h a3mq2067foq75p-ats.iot.us-east-1.amazonaws.com -p 8883 --cafile AmazonRootCA1.pem --cert certificate.pem.crt --key private.pem.key -t test/topic -m "Hello, AWS IoT" -q 1
