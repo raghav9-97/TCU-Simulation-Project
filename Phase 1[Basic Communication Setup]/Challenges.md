@@ -4,5 +4,6 @@
 ---
 
 ## Solutions Tried
+1. Tested certificates with Mosquitto client, in order to check them for validity, it worked fine.
 2. CmakeLists.txt was not correct, took inspiration from ESP-IDF Examples for MQTT Mutual Auth
 ---
