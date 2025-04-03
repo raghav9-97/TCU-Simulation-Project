@@ -24,10 +24,10 @@
 
 ## Hardware Components List
 - **STM32F446RE Nucleo Board** (TCU Component Emulation).
-- **STM32F767ZI Nucleo Board** (ECU Component Emulation).
+- **STM32H753ZI Nucleo Board** (ECU Component Emulation - Dual Bank Flash and CAN-FD Support).
 - **ESP32 DevkitCv4 Board** (WiFi Module for communicating with AWS IoT Core).
 - **MCP2562FD CAN-FD Transceiver** (CAN Transceivers for setting up CAN-FD Communication).
-- **AdaFruit SDCard Breakout Board** (SD Card Module for ECU and TCU Assembly).
+- **SDCard Breakout Board** (SD Card Module for ECU and TCU Assembly).
 ---
 
 ## Software Development Tools
